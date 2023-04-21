@@ -1,0 +1,64 @@
+body {
+  background: black;
+  color: whitesmoke;
+  font-family: monospace;
+  display: grid;
+  justify-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  width: 60%;
+  margin: auto;
+  background: #333;
+  padding: 1em;
+  border-radius: 12px;
+}
+
+.input-container {
+  display: flex;
+}
+.input-container input {
+  border: none;
+  padding: 1em;
+}
+.input-container .addTodo {
+  background: coral;
+  color: white;
+  border: none;
+  margin-left: 2px;
+  padding: 1em;
+  margin-left: 1em;
+}
+
+.result-container .todos {
+  list-style: none;
+}
+.result-container .todos li {
+  margin-top: 1em;
+  background: black;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-container .todos li .remove {
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+}
+.result-container .todos li .remove:hover {
+  background: red;
+  color: whitesmoke;
+}
+
+.removeTest {
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.removeTest:hover {
+  background: red;
+  color: whitesmoke;
+}/*# sourceMappingURL=styles.css.map */
